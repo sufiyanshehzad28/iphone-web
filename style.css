@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    background-color: black;
+    color: aliceblue;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+
+}
+
+.nav-ul-2 {
+    display: none;
+
+}
+
+@media only screen and (max-width:900px) {
+    .nav-ul-2 {
+        display: flex;
+
+    }
+
+    .nav-ul-1 {
+        display: none;
+    }
+}
+
+.nav2 {
+    text-align: center;
+    background-color: antiquewhite;
+    height: 30px;
+
+}
+
+.section-1 {
+    background-color: #FBFBFD;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.section-1 h1 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.section-1 img {
+    margin-top: -10px;
+}
+
+
+
+.section-2 h2 {
+    color: palevioletred;
+
+}
+
+.section-2 {
+    text-align: center;
+    padding-top: 5%;
+    background-color: #35283C;
+
+}
+
+.section-2 img {
+    margin-top: 1%;
+}
+
+.section-3 {
+    text-align: center;
+    background-color: #F5F5F7;
+}
+
+.section-4 {
+    display: flex;
+
+}
+
+.section-4 .left-side,
+.section-4 .right-side {
+    width: 100%;
+}
+
+.promo-card-1,
+.promo-card-2,
+.promo-card-3,
+.promo-card-4,
+.promo-card-5,
+.promo-card-6 {
+    position: relative;
+    padding: 0px !important;
+}
+
+.promo-card-1 .card-text,
+.promo-card-2 .card-text,
+.promo-card-3 .card-text,
+.promo-card-4 .card-text,
+.promo-card-5 .card-text,
+.promo-card-6 .card-text {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.promo-card-3,
+.card-text h1 {
+    color: #602D62;
+}
+
+/* ----------------------footer------------------- */
+.footer {
+    background-color: #F5F5F5;
+    padding: 150px;
+    font-size: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-copyright ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-copyright li {
+    padding: 0px 10px;
+    border-right: 1px solid grey;
+}
+
+@media only screen and (max-width: 1100px) {
+    .card-text h1 {
+        font-size: 25px;
+    }
+
+    .card-text h2 {
+        font-size: 20px;
+    }
+
+    .card-text h3 {
+        font-size: 16px;
+    }
+
+    .card-text p {
+        font-size: 14px;
+    }
+    .footer {
+        padding: 100px;
+     }
+}
+@media only screen and (max-width: 1100px) {
+    .footer {
+        padding: 50px;
+     }
+}
